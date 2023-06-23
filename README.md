@@ -1,4 +1,4 @@
-# ER_Template
+# EN Template
 
 This is a C program *template* tailored for:
 
