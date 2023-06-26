@@ -63,12 +63,12 @@ int main() {
 }
 
 void printMenu() {
-printf("\n===================================================================================");
+	printf("\n===================================================================================");
 	printf("\n                          PROJECT: EarthQuake Data and Prevision");
 	printf("\n===================================================================================");
 	printf("\nA. Base commands (LOADCL, LOADEA, LOADST, CLEAR).");
 	printf("\nB. Aggregated info about earthquakes (SHOW_PAGINATION, SHOWALL, SHOW_DIST, SHOW_MAG,");
-    printf("\n   COUNT, HISTOGRAM).");
+    	printf("\n   COUNT, HISTOGRAM).");
 	printf("\nC. Aggregated info about country statistics (COUNTRY_S, REGION_AVG).");
 	printf("\nD. Complex Indicators require airports and flights data (TOPN).");
 	printf("\nE. Exit (QUIT)\n\n");
