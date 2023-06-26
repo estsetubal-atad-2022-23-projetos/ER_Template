@@ -39,7 +39,7 @@ int main() {
 			// Break loop, effectively leaving the command line	
 			break;	
 		}
-		else if (strcasecmp(command, "LOADCL") == 0) {
+		else if (strcasecmp(command, "LOADST") == 0) {
 			// Insert call for function here ...
 			printf("Not implemented yet!");
 					
@@ -63,15 +63,16 @@ int main() {
 }
 
 void printMenu() {
-	printf("\n===================================================================================");
-	printf("\n                          EarthQuake Data Analysis ");
+printf("\n===================================================================================");
+	printf("\n                          PROJECT: EarthQuake Data and Prevision");
 	printf("\n===================================================================================");
 	printf("\nA. Base commands (LOADCL, LOADEA, LOADST, CLEAR).");
-	printf("\nB. Aggregated info about earthquakes (SHOWALL, SHOW_Y, SHOW_T, SHOW_YT, LIST_T, COUNT, HISTOGRAM");
-	printf("\nC. Aggregated info about countries and regions (COUNTRY_S, REGION_AVG).");
-	printf("\nD. Complex indicators; require earthquake and country data (TOPN).");
-	printf("\n\nExit (QUIT)\n\n");
-	printf("COMMAND?> ");
+	printf("\nB. Aggregated info about earthquakes (SHOW_PAGINATION, SHOWALL, SHOW_DIST, SHOW_MAG,");
+    printf("\n   COUNT, HISTOGRAM).");
+	printf("\nC. Aggregated info about country statistics (COUNTRY_S, REGION_AVG).");
+	printf("\nD. Complex Indicators require airports and flights data (TOPN).");
+	printf("\nE. Exit (QUIT)\n\n");
+	printf("COMMAND> ");
 }
 
 void waitForKeypress() {
