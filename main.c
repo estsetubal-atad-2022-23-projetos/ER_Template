@@ -69,8 +69,8 @@ void printMenu() {
 	printf("\nA. Base commands (LOADCL, LOADEA, LOADST, CLEAR).");
 	printf("\nB. Aggregated info about earthquakes (SHOW_PAGINATION, SHOWALL, SHOW_DIST, SHOW_MAG,");
     	printf("\n   COUNT, HISTOGRAM).");
-	printf("\nC. Aggregated info about country statistics (COUNTRY_S, REGION_AVG).");
-	printf("\nD. Complex Indicators require airports and flights data (TOPN).");
+	printf("\nC. Sorted info about country statistics (COUNTRY_S).");
+	printf("\nD. Aggregated info, requires earthquake and country data (REGION_AVG, TOPN).");
 	printf("\nE. Exit (QUIT)\n\n");
 	printf("COMMAND> ");
 }
